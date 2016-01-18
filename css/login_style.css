@@ -1,0 +1,230 @@
+
+body {
+  font: 13px/20px "Open Sans", Tahoma, Verdana, sans-serif;
+  color: #a7a599;
+    background:url('../img/new1.jpg');
+}
+
+
+.form {
+    width: 100%;
+	
+}
+
+.form .field {
+    position: relative;
+    margin: 0 50px;
+	
+}
+
+.form .field i {
+    font-size: 15px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 50px;
+    width: 44px;
+    color: #f7f3eb;
+    background: #676056;
+    text-align: center;
+    line-height: 44px;
+ 
+}
+
+
+.login {
+  position: relative;
+  margin: 0 auto;
+  width: 370px;
+  height: 315px;
+  background: white;
+  border-radius: 3px;
+  top:170px;
+}
+
+
+
+.login h1 {
+  line-height: 55px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  background: rgba(48,86,110,.62);
+
+  
+}
+
+.login p:first-child {
+  margin-top: 30px;
+}
+
+.login p.remember {
+  float: left;
+}
+.remember{
+position: relative;
+bottom:25px;
+}
+.forgot{
+position:relative;
+bottom:25px;
+}
+.login p.remember label {
+  color: #a7a599;
+  font-size: 12px;
+  cursor: pointer;
+  position:relative;
+  right:15px;
+}
+
+.login p.submit {
+  text-align: center;
+}
+
+.login p.forgot {
+  float: right;
+  margin-right: 50px;
+}
+
+.login p.forgot a {
+  color: #a7a599;
+  font-size: 12px;
+  text-decoration: none;
+  font-style: italic;
+  transition: all 0.3s ease-out;
+  position:relative;
+  left:25px;
+  bottom:32px;
+}
+
+
+.login p.forgot a:hover {
+  color: #f2672e;
+}
+
+
+
+.form input[type=text],
+.form input[type=password] {
+    font-family: 'Open Sans', Calibri, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px 10px 55px;
+    position: relative;
+    width: 255px;
+    height: 24px;
+    color: #676056;
+    border: none;
+    background: #f7f3eb;
+    color: #777;
+    transition: color 0.3s ease-out;
+}
+
+.form input[type=text] {
+    margin-bottom: 15px;
+	height:50px;
+}
+.form input[type=password] {
+
+height:50px;
+}
+
+.form input[type=text]:hover ~ i,
+.form input[type=password]:hover ~ i {
+    color: #30566E;
+}
+
+.form input[type=text]:focus ~ i,
+.form input[type=password]:focus ~ i {
+    color: #f2672e;
+}
+
+
+
+.form input[type=submit] {
+  margin-top: 5px;
+  width: 270px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: bold;
+  padding: 12px 0;
+  color: #fff;
+  background-color: #30566E;
+  text-shadow: none;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+
+
+
+.form input[type="checkbox"] {
+    display:none;
+}
+
+.form input[type="checkbox"] + label span {
+    display:inline-block;
+    width:16px;
+    height:16px;
+    margin: -2px 4px 0 50px;
+    vertical-align:middle;
+    background:url("../img/checkbox.png") left top no-repeat;
+    cursor:pointer;
+}
+.form input[type="checkbox"]:checked + label span {
+    background:url("../img/checkbox.png") -16px top no-repeat;
+}
+
+
+.copyright {
+  margin-top: 230px;
+  text-align: center;
+}
+
+.copyright  a {
+  color: #30566E;
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
+
+.copyright a:hover {
+  color: #f2672e;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/FontAwesome/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../font/FontAwesome/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../font/FontAwesome/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../font/FontAwesome/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../font/FontAwesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.field i{
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+}
+
+.fa-user:before {
+  content: "\f007";
+}
+
+
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+
+.fa-lock:before {
+  content: "\f023";
+}
+

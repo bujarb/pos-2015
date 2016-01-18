@@ -1,0 +1,88 @@
+#up{
+    border: 0px solid black;
+    height: 350px;
+}
+#table{
+    border: 0px solid black;
+    height: 300px;
+}
+#pagination{
+    border: 0px solid black;
+    height: 50px;
+}
+#pagination ul{
+    margin-top:6px;
+    margin-left: 20px;
+}
+#pagination ul li a{
+    margin-left: 5px;
+}
+#left{
+    width: 70%;
+    float: left;
+    border: 0px solid black;
+    border-right: solid;
+}
+
+#right{
+    width: 30%;
+    float: right;
+    border: 0px solid black;
+}
+
+#table2{
+    margin-left: 10px;
+}
+
+#up-profile{
+    width: 100%;
+    height: 500px;
+    border: 0px solid black;
+}
+#table-profile{
+    margin-top: 20px;
+}
+#table-profile a{
+    float: right;
+}
+#left-profile{
+    border: 0px solid black;
+    width: 35%;
+    height: 500px;
+}
+.notifications{
+    width: 100%;
+    height: 150px;
+    border: 0px solid black;
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+#head{
+    width: 100%;
+    height: 75px;
+    border: 0px solid black;
+    background-color: #0073e6;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#head h1{
+    float: right;
+    margin-right: 10px;
+    color: white;
+    font-style:oblique;
+}
+
+#bbb{
+    width: 100%;
+    height: 75px;
+    border: 0px solid black;
+}
+#bbb a{
+    margin-top: 18px;
+    margin-right: 10px;
+    float: right;
+    font-size: 20px;
+    color: black;
+    font-family: cursive;
+
+}

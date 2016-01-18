@@ -1,0 +1,27 @@
+body{
+    width: 1316px;
+    position: relative;
+}
+input[type=text]{
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#content{
+    position: relative;
+    float: left;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+select{
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 30px;
+}
+input[type=file]{
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 30px;
+}
