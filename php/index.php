@@ -1,6 +1,7 @@
 <?php
     session_start();
-    require 'includes/init.php';
+    require "includes/init.php";
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,52 +13,75 @@
 
 </head>
 
-    <body>
-
-        <div id="page">
+<body>
+<div id ="header">
+            <div id="logo">
+                <img src="../img/POS1.png" width="200px" height="70px">
+            </div>
+            <div id="logo1">
+                <p>Ferizaj 12°</p>
+                <img src="../img/dzd.png" width="120px" height="80px">
+            </div>
+        </div>
+        <div id="nav">
+                <ul>
+                    <li><a href="#">Point oF Sale</li></a>
+                    <li><a href="#">Rreth Nesh</li></a>
+                    <li><a href="#">Te gjitha bizneset</li></a>
+                    <li><a href="#">Kontaktet</li></a>
+                </ul>
+                <z><a href="#">  </a></z>
+                
+        </div>
+<div id="page">
 	
-                <h1>GJEJ BIZNISET POINTOFSALE</h1>
+    <h1>GJEJ BIZNISET POINTOFSALE</h1>
     
-            <form id="searchForm" method="post" action="results.php">
-		        <fieldset>
+    <form id="searchForm" method="post" action="results.php">
+		<fieldset>
         
-           	        <input id="s" type="search" name="words" placeholder="Kerko nje biznes...">
+           	<input id="s" name="search" type="text" placeholder="Kerko nje biznes..." />
             
-                     <input type="submit" value="Submit" id="submitButton" name="submit"/>
-			            <p>
-                            <label for='Select a Category '>Zgjedh Vendin<font color="red"><strong></strong></font></label>
-                        </p>
-                        <p>
-                             <div id='contactform_category_errorloc' class='err'></div>
+            <input type="submit" value="Submit" id="submitButton" />
+			<p>
+<label for='Select a Category '>Zgjedh Vendin<font color="red"><strong></strong></font></label></p> 
+<p><div id='contactform_category_errorloc' class='err'></div>
 
-                            <select name="city" class="inpu">
-                            <option value="0" selected="selected">
-                            [Zgjedh Vendin]
+  <select name="city" class="inpu">
+    <option value="0" selected="selected">
+      [Zgjedh Vendin]
+    </option>
+    <?php get_Cities(0); ?>
+    
+  </select>
+</p>
 
-                                <?php get_Cities(0); ?>
-
-                            </select>
-                     </p>
-
-             <div id="searchInContainer">
+            
+            <div id="searchInContainer">
                 <input type="radio" name="check" value="site" id="searchSite" checked />
                 <label for="searchSite" id="siteNameLabel"><b>Kosove</b></label>
-
+                
                 <input type="radio" name="check" value="web" id="searchWeb" />
                 <label for="searchWeb"><b>Albania</b></label>
 			</div>
 			<label  for='Select a Category '><c>Zgjedh Kategorin</c><font color="red"><strong></strong></font></label></p>
-            <p>
-                    <div id="contactform_category_errorloc" class="err"></div>
+<p><div id="contactform_category_errorloc" class="err"></div>
 
-                <select  name="category" class="input">
-                    <option value="0" selected="selected">
-                        [Zgjedh Kategorin]
-                    </option>
-                        <?php get_Categories(0); ?>
+  <select  name="category" class="input">
+    <option value="0" selected="selected">
+      [Zgjedh Kategorin]
+    </option>
+    <?php get_Categories(0);?>
   
-                </select>
-            </p>
+  </select>
+</p>
+                        
+            <ul class="icons">
+                <li class="web" title="Web Search" data-searchType="web">Web</li>
+                <li class="images" title="Image Search" data-searchType="images">Images</li>
+                <li class="news" title="News Search" data-searchType="news">News</li>
+                <li class="videos" title="Video Search" data-searchType="video">Videos</li>
+            </ul>
             
         </fieldset>
     </form>
