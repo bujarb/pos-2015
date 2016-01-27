@@ -8,7 +8,7 @@
                     <h1><?php countNotifications();?> Njoftime</h1>
                 </div>
                 <div id="bbb">
-                    <a href="admin-profile.php?open">Hap njoftimet</a>
+                    <a href="profile.php?open">Hap njoftimet</a>
                 </div>
             </div>
             <?php
@@ -42,11 +42,11 @@
                     </div>
                     <?php
                     if(isset($_GET['mbyll'])){
-                        header('Location: admin-profile.php');
+                        header('Location: profile.php');
                     }
                     updateNotifications();
                 }else{
-                    header('Location: admin-profile.php');
+                    header('Location: profile.php');
                 }
             }
 
