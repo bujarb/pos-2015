@@ -11,7 +11,7 @@ session_start();
 
 $username = mysql_real_escape_string($_POST['username']);
 $password = mysql_real_escape_string(sha1($_POST['password']));
-
+$errors = array();
 if($username&&$password){
     $query = "select * from users where username='$username'";
     $result = mysql_query($query) or die();
@@ -32,11 +32,7 @@ if($username&&$password){
             $_SESSION['role']= $role;
             $_SESSION['is_member']= $is_member;
             $_SESSION['photo']=$photo;
-            if($role == 1){
-                header('Location: admin-profile.php');
-            }else{
-                header('Location: user-profile.php');
-            }
+            header('Location: profile.php');
         }else{
             echo 'Usernami ose  passwordi gabim';
         }
@@ -46,5 +42,4 @@ if($username&&$password){
 }else{
     echo 'Mbushni te gjitha te dhenat';
 }
-
 ?>

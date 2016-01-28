@@ -1,6 +1,6 @@
 <?php include "includes/header-results.php";?>
 
-<form name="htmlform" method="post" action="html_form_send.php">
+<form name="htmlform" method="post" action="">
 <table width="450px" >
 </tr>
 <tr>
@@ -53,4 +53,21 @@
 </tr>
 </table>
 </form>
+<?php
+ if(isset($_POST['first_name']) && isset($_POST['last_name']) && isset($_POST['email']) && isset($_POST['telephone']) && isset($_POST['comments'])){
+  $first_name = $_POST['first_name'];
+  $last_name = $_POST['last_name'];
+  $email = $_POST['email'];
+  $telephone = $_POST['telephone'];
+  $comments = $_POST['comments'];
+  $our_email = 'begisholli.bujar@gmail.com';
+  $headers = 'From: webmaster@example.com' . "\r\n" .
+      'Reply-To: webmaster@example.com' . "\r\n" .
+      'X-Mailer: PHP/' . phpversion();
+
+  if(mail($our_email,'Hello',$comments,$headers)){
+   header('Location: contacts.php');
+  }
+ }
+?>
 <?php include "includes/footer-results.php";?>

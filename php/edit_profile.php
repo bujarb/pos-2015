@@ -24,9 +24,9 @@ if(isset($_GET['edit'])){
             Mbiemri:<br/>
             <input type="text" id="mbiemri" name="mbiemri" value="<?php echo $row['surname']; ?>"><br/>
             Email:<br/>
-            <input type="text" id="email" name="email" value="<?php echo $row['email']; ?>"><br/>
+            <input type="text" id="email" name="email" value="<?php echo $row['email']; ?>" readonly><br/>
             Username:<br />
-            <input type="text" id="username" name="username" value="<?php echo $row['username'];?>"><br/><br />
+            <input type="text" id="username" name="username" value="<?php echo $row['username'];?>" readonly><br/><br />
             <input type="submit" id="submit" value="Ndrysho" name="submit">
         </form>
     </div>

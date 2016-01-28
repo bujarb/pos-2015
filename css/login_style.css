@@ -2,7 +2,7 @@
 body {
   font: 13px/20px "Open Sans", Tahoma, Verdana, sans-serif;
   color: #a7a599;
-    background:url('../img/new1.jpg');
+    background:url('../img/winter3.jpg');
 }
 
 
@@ -25,7 +25,7 @@ body {
     height: 50px;
     width: 44px;
     color: #f7f3eb;
-    background: #676056;
+    background: green;
     text-align: center;
     line-height: 44px;
  
@@ -52,7 +52,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
-  background: rgba(48,86,110,.62);
+  background: green;
 
   
 }
@@ -153,7 +153,7 @@ height:50px;
   font-weight: bold;
   padding: 12px 0;
   color: #fff;
-  background-color: #30566E;
+  background-color: green;
   text-shadow: none;
   text-transform: uppercase;
   border: none;

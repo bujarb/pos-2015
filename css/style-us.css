@@ -38,7 +38,7 @@ section h2 {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Basic style
 
@@ -119,7 +119,7 @@ nav[role="navigation"] {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 No space - remove distance between list items
 
@@ -157,7 +157,7 @@ No space - remove distance between list items
   border-radius: 0 0.25em 0.25em 0;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 move buttons - move prev and next buttons to the sides
 
@@ -188,9 +188,9 @@ move buttons - move prev and next buttons to the sides
   float: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-custom icons - customize the small arrow inside the next and prev buttons 
+custom icons - customize the small arrow inside the next and prev buttons
 
 -------------------------------- */
 .cd-pagination.custom-icons .button a {
@@ -227,9 +227,9 @@ custom icons - customize the small arrow inside the next and prev buttons
   transform: rotate(180deg);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-custom buttons - replace prev and next buttons text with a custom icon 
+custom buttons - replace prev and next buttons text with a custom icon
 
 -------------------------------- */
 .cd-pagination.custom-buttons a, .cd-pagination.custom-buttons span {
@@ -266,9 +266,9 @@ custom buttons - replace prev and next buttons text with a custom icon
   border-radius: 0.25em 0 0 0.25em;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-animated buttons - animate the text inside prev and next buttons 
+animated buttons - animate the text inside prev and next buttons
 
 -------------------------------- */
 .cd-pagination.animated-buttons a, .cd-pagination.animated-buttons span {
@@ -357,7 +357,7 @@ animated buttons - animate the text inside prev and next buttons
 		overflow: hidden;
 		height: 5.2em;
 	}
-	
+
 	#logo h1 a {
 		float: left;
 		padding: 0.5em 0.25em 0em 0em;
@@ -369,7 +369,7 @@ animated buttons - animate the text inside prev and next buttons
 		font-weight: 400;
 		color: #FFFFFF;
 	}
-	
+
 	#logo p {
 		padding: 1em 0em 0em 0em;
 		font-family: Georgia, "Times New Roman", Times, serif;
@@ -384,16 +384,16 @@ animated buttons - animate the text inside prev and next buttons
 		overflow: hidden;
 		height: 8em;
 	}
-	
+
 	#menu ul {
 		float: right;
 		text-align: center;
 	}
-	
+
 	#menu li {
 		display: inline-block;
 	}
-	
+
 	#menu a {
 		display: block;
 		float: left;
@@ -406,17 +406,17 @@ animated buttons - animate the text inside prev and next buttons
 		font-weight: 300;
 		color: #FFFFFF;
 	}
-	
+
 	#menu .current_page_item {
 	}
-	
+
 	#menu .current_page_item a {
 		background: #C71E29;
 		border-radius: 5px 5px 0px 0px;
 		box-shadow: inset 0px -15px 10px 0px rgba(0,0,0,0.10);
 		text-shadow: none;
 	}
-	
+
 	#menu a:hover {
 	}
 
@@ -454,7 +454,7 @@ animated buttons - animate the text inside prev and next buttons
 	#sidebar section
 	{
 	}
-	
+
 	#sidebar #box1
 	{
 		padding: 0em 2em 0em 0em;
@@ -490,7 +490,7 @@ animated buttons - animate the text inside prev and next buttons
 	#three-column
 	{
 	}
-	
+
 	#three-column section
 	{
 		padding: 0em 0em 0em 0em !important;
@@ -562,7 +562,7 @@ a:visited {
 	margin-left: 20px;
 	background: url();
 	background-repeat: no-repeat;
-	
+
 }
 
 
@@ -612,7 +612,7 @@ a:visited {
 
 #nav ul li {
 	list-style: none;
-	float: left;	
+	float: left;
 }
 
 #nav ul li a {
@@ -664,7 +664,7 @@ a:visited {
 }
 
 #catagories ul li {
-	
+
 	line-height: 30px;
 	width: auto;
 }
@@ -877,7 +877,7 @@ a:visited {
 	width: 196px;
 	height: 200px;
 	overflow: hidden;
-	
+
 
 }
 
@@ -1019,7 +1019,7 @@ form{
 	{
 		height: 100%;
 	}
-	
+
 	body
 	{
 		margin: 0em;
@@ -1029,14 +1029,14 @@ form{
 		font-size: 9.5pt;
 		color: #4e4e4e;
 	}
-	
+
 	h1, h2, h3 {
 		padding: 0 0 1em 0;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		color: #353535;
 	}
-	
+
 	h2
 	{
 		letter-spacing: -1px;
@@ -1047,18 +1047,18 @@ form{
 	{
 		margin-top: 1em;
 	}
-	
+
 	p
 	{
 		line-height: 1.75em;
 	}
-	
+
 	a
 	{
 		text-decoration: none;
 		color: #E34040;
 	}
-	
+
 	a:hover
 	{
 		text-decoration: none;
@@ -1069,13 +1069,13 @@ form{
 	ul.style1
 	{
 	}
-	
+
 	ul.style1 li
 	{
 		padding: 0.75em 0 0.75em 0em;
 		background: url(images/bullet-icon.png) no-repeat left 50%;
 	}
-	
+
 	ul.style1 a
 	{
 		display: block;
@@ -1083,7 +1083,7 @@ form{
 		text-decoration: none;
 		color: #676767;
 	}
-	
+
 	ul.style1 a:hover
 	{
 		text-decoration: underline;
@@ -1097,33 +1097,33 @@ form{
 		padding: 0em;
 		list-style: none;
 	}
-	
+
 	ul.style2 li {
 		padding: 1.00em 0em 2.75em 0em;
 		border-top: 1px solid #E2E2E2;
 	}
-	
+
 	ul.style2 a {
 		text-decoration: none;
 		color: #4e4e4e;
 	}
-	
+
 	ul.style2 a:hover {
 		text-decoration: underline;
 	}
-	
-	
+
+
 	ul.style2 img {
 		float: left;
 		margin-right: 1.5em;
 		border-radius: 5px;
 	}
-	
+
 	ul.style2 .first {
 		padding-top: 0;
 		border-top: none;
 	}
-	
+
 /* List style 3 */
 
 	ul.style3 {
@@ -1131,19 +1131,19 @@ form{
 		padding: 0em 0em 0em 0em;
 		list-style: none;
 	}
-	
-	
+
+
 	ul.style3 li {
 		padding: 1.75em 0em 1.50em 0em;
 		border-top: 1px solid #E2E2E2;
 	}
-	
+
 	ul.style3 .heading-title {
 		font-size: 1.10em;
 		font-weight: bold;
 		color: #333333;
 	}
-	
+
 	ul.style3 .date {
 		display: inline-block;
 		margin: 0em 1em 1em 0em;
@@ -1155,7 +1155,7 @@ form{
 		box-shadow: 0px 1px 5px rgba(0,0,0,.4);
 		color: #FFFFFF;
 	}
-	
+
 	ul.style3 .date a
 	{
 		display: inline-block;
@@ -1171,17 +1171,17 @@ form{
 		box-shadow: inset 1px 1px 1px #F60;
 	}
 
-	ul.style3 a 
+	ul.style3 a
 	{
 		text-decoration: none;
 		color: #4e4e4e;
 	}
-	
-	ul.style3 a:hover 
+
+	ul.style3 a:hover
 	{
 		text-decoration: underline;
 	}
-	
+
 	ul.style3 .first {
 		border-top: none;
 	}
@@ -1194,21 +1194,21 @@ form{
 		padding: 0em;
 		list-style: none;
 	}
-	
+
 	ul.style4 li {
 		padding: 1.50em 0em 1.50em 0em;
 		border-top: 1px solid #E2E2E2;
 	}
-	
+
 	ul.style4 a {
 		text-decoration: none;
 		color: #4e4e4e;
 	}
-	
+
 	ul.style4 a:hover {
 		text-decoration: underline;
 	}
-	
+
 	ul.style4 h3
 	{
 		padding: 0 0 0.75em 0;
@@ -1216,8 +1216,8 @@ form{
 		font-weight: 700;
 		color: #333;
 	}
-	
-	
+
+
 	ul.style4 .first {
 		padding-top: 0;
 		border-top: none;
@@ -1243,7 +1243,7 @@ form{
 		font-weight: 400;
 		color: #FFFFFF;
 	}
-	
+
 	.button a
 	{
 		display: inline-block;
@@ -1288,9 +1288,9 @@ form{
 	#page
 	{
 		overflow: hidden;
-		padding: 5em 0em 0em 0em;
+		padding: 0em 0em 0em 0em;
 	}
-	
+
 	.homepage #page
 	{
 		padding: 3em 0em 0em 0em;
@@ -1353,7 +1353,7 @@ form{
 		font-weight: 700;
 		color: #C6250A;
 	}
-	
+
 	#marketing .subtitle
 	{
 		margin: 0 0 1em 0;
@@ -1379,7 +1379,7 @@ form{
 		padding: 3em 0em 0em 0em;
 		border-top: 1px solid #E2E2E2;
 	}
-	
+
 	#two-column section
 	{
 		padding: 0em 0em 0em 0em !important;
@@ -1394,7 +1394,7 @@ form{
 		padding: 3em 0em 0em 0em;
 		border-top: 1px solid #E2E2E2;
 	}
-	
+
 	#three-column section
 	{
 		padding: 0em 0em 0em 0em !important;
@@ -1421,19 +1421,19 @@ form{
 		background: /*url(images/img02.jpg)*/ repeat-x left top;
 		text-shadow: 1px 1px 0px #FFFFFF;
 	}
-	
+
 	#copyright p
 	{
 		text-align: center;
 		font-size: 1em;
 		color: #949494;
 	}
-	
+
 	#copyright a
 	{
 		color: #949494;
 	}
-	
+
 	#copyright a:hover
 	{
 		text-decoration: none;

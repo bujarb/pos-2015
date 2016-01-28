@@ -37,7 +37,7 @@ if(isset($emri) && isset($mbiemri) && isset($emaili) && isset($username) && isse
             $_SESSION['role']= 2;
             $_SESSION['is_member']=1;
             $_SESSION['photo'] = '<img src="../images/default/default-user.png">';
-            header('Refresh:1; user-profile.php');
+            header('Refresh:1; profile.php');
         }else{
             echo 'Not inserted';
             header('Location: regjistro_user.php');

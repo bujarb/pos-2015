@@ -25,10 +25,10 @@
         </div>
         <div id="nav">
                 <ul>
-                    <li><a href="#">Point oF Sale</li></a>
-                    <li><a href="#">Rreth Nesh</li></a>
-                    <li><a href="#">Te gjitha bizneset</li></a>
-                    <li><a href="#">Kontaktet</li></a>
+                    <li><a href="index.php">Point oF Sale</li></a>
+                    <li><a href="rreth-nesh.php">Rreth Nesh</li></a>
+                    <li><a href="results_allbussineses.php">Te gjitha bizneset</li></a>
+                    <li><a href="contact.php">Kontaktet</li></a>
                 </ul>
                 <z><a href="#">  </a></z>
                 

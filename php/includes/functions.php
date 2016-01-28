@@ -156,7 +156,7 @@ function isAdmin($role){
 function redirectToProfile($role){
         switch ($role) {
             case 1:
-                header('Location: admin-profile.php');
+                header('Location: profile.php');
                 break;
             case 2:
                 header('Location: user-profile.php');
@@ -165,4 +165,15 @@ function redirectToProfile($role){
                 header('Location: user-profile.php');
                 break;
             }
+}
+
+function updateMemberId($id){
+    if($id){
+        $query = "UPDATE users SET member_id=1 WHERE b_id='$id'";
+        $results = mysql_query($query);
+
+        if($results){
+            header('Location: profile.php');
+        }
+    }
 }

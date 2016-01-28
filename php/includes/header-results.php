@@ -3,7 +3,7 @@ session_start();
 if(isset($_SESSION['user_logged'])){
     $currentUser = $_SESSION['user_logged'];
 }
-include "../init.php";
+include "init.php";
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
@@ -74,9 +74,9 @@ include "../init.php";
     </div>
     <div id="nav">
         <ul>
-            <li><a href="results.php">Faqja Kerkimeve</li></a>
-            <li><a href="C:\Users\Acer\Desktop\Rreth nesh\heavyindustry\index1.html">Rreth Nesh</li></a>
+            <li><a href="../php/index.php">Faqja Kerkimeve</li></a>
+            <li><a href="../php/rreth-nesh.php">Rreth Nesh</li></a>
             <li><a href="../php/results_allbussineses.php">Te gjitha bizneset</li></a>
-            <li><a href="htmlform.php">Kontaktet</li></a>
+            <li><a href="../php/contact.php">Kontaktet</li></a>
         </ul>
     </div><!--perfundon nav -->

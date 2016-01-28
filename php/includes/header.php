@@ -49,7 +49,7 @@ if(isset($_SESSION['user_logged']) && isset($_SESSION['role']) && isset($_SESSIO
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../php/admin-profile.php">Home Page</a>
+            <a class="navbar-brand" href="../php/profile.php">Home Page</a>
         </div>
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">

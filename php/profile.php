@@ -1,23 +1,25 @@
 <?php require 'includes/header.php';?>
-<?php if($role == 1):?>
-    <h1>Miresevjen <?php echo $currentUser;?><hr /></h1>
+<?php if($role == 1) { ?>
+    <h1>Miresevjen <?php echo $currentUser; ?>
+        <hr/>
+    </h1>
     <div id="up-profile">
         <div id="left-profile">
             <div class="notifications">
                 <div id="head">
-                    <h1><?php countNotifications();?> Njoftime</h1>
+                    <h1><?php countNotifications(); ?> Njoftime</h1>
                 </div>
                 <div id="bbb">
                     <a href="profile.php?open">Hap njoftimet</a>
                 </div>
             </div>
             <?php
-            if(isset($_GET['open'])){
+            if (isset($_GET['open'])) {
                 $query = "SELECT * FROM notifications WHERE done=1";
                 $results = mysql_query($query) or die();
                 $numrows = mysql_num_rows($results);
 
-                if($numrows != 0){
+                if ($numrows != 0) {
                     ?>
                     <div id="table-profile">
                         <table class="table table-condensed">
@@ -29,34 +31,36 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <?php while($row = mysql_fetch_array($results)) {?>
+                            <?php while ($row = mysql_fetch_array($results)) { ?>
                                 <tr>
                                     <td><?php echo $row['title']; ?></td>
-                                    <td><?php echo $row['text'];?></td>
-                                    <td><a href="user-profile.php?delete=<?php echo $row['no_id'];?>">Fshije</a></td>
+                                    <td><?php echo $row['text']; ?></td>
+                                    <td><a href="profile.php?delete=<?php echo $row['no_id']; ?>">Fshije</a></td>
                                 </tr>
-                            <?php }?>
+                            <?php } ?>
                             </tbody>
                         </table>
-                        <a href="user-profile.php?mbyll">Mbyll</a>
+                        <a href="profile.php?mbyll">Mbyll</a>
                     </div>
                     <?php
-                    if(isset($_GET['mbyll'])){
+                    if (isset($_GET['mbyll'])) {
                         header('Location: profile.php');
                     }
                     updateNotifications();
-                }else{
+                } else {
                     header('Location: profile.php');
                 }
             }
 
-            if(isset($_GET['delete'])){
+            if (isset($_GET['delete'])) {
                 $id = $_GET['delete'];
                 deleteNotification($id);
             }
             ?>
         </div>
     </div>
-<?php else: header('Location: loginform.php');?>
-<?php endif; ?>
-<?php require 'includes/footer.php';?>
+    <?php
+}else if($role==2 || $role==3){
+    echo 'Miresevjen, '.$currentUser;
+}
+    ?>
